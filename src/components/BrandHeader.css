@@ -1,0 +1,64 @@
+.brand-header {
+  display: flex;
+  align-items: flex-start;
+  background: linear-gradient(90deg, #153e6e 70%, #2a5da8 100%);
+  color: #fff;
+  padding: 28px 40px 18px 40px;
+  border-radius: 0 0 28px 28px;
+  box-shadow: 0 4px 24px rgba(21,62,110,0.08);
+  margin-bottom: 8px;
+}
+.brand-logo {
+  width: 64px;
+  height: 64px;
+  margin-right: 28px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(21,62,110,0.10);
+}
+.brand-content {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.brand-title {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+}
+.brand-slogan {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #b3d1f7;
+  margin-bottom: 2px;
+}
+.brand-about {
+  font-size: 1.01rem;
+  color: #e3ecf7;
+  max-width: 600px;
+  line-height: 1.5;
+}
+@media (max-width: 700px) {
+  .brand-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 8px 10px 8px;
+    border-radius: 0 0 14px 14px;
+  }
+  .brand-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .brand-title {
+    font-size: 1.2rem;
+  }
+  .brand-slogan {
+    font-size: 0.98rem;
+  }
+  .brand-about {
+    font-size: 0.93rem;
+  }
+}

@@ -1,0 +1,129 @@
+.talent-assessment-container {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(21,62,110,0.08);
+  padding: 36px 32px 24px 32px;
+  margin-bottom: 32px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.talent-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #153e6e;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+.talent-section {
+  margin-bottom: 22px;
+}
+.talent-section h3 {
+  font-size: 1.13rem;
+  color: #2a5da8;
+  margin-bottom: 6px;
+}
+.talent-tip {
+  color: #3a5a8c;
+  font-size: 0.97rem;
+  margin-bottom: 4px;
+  background: #f7fafd;
+  border-left: 3px solid #b3d1f7;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+.talent-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.talent-row label {
+  font-size: 0.98rem;
+  color: #153e6e;
+}
+.talent-row select {
+  border-radius: 6px;
+  border: 1px solid #b3d1f7;
+  padding: 4px 10px;
+  font-size: 1rem;
+  color: #153e6e;
+  background: #f7fafd;
+  margin-right: 8px;
+}
+.talent-ability-table {
+  margin: 10px 0 8px 0;
+  border-radius: 8px;
+  background: #f7fafd;
+  padding: 10px 8px;
+  box-shadow: 0 1px 4px rgba(21,62,110,0.04);
+}
+.talent-ability-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.talent-ability-label {
+  min-width: 90px;
+  font-size: 0.98rem;
+  color: #2a5da8;
+  margin-right: 8px;
+}
+.talent-ability-behavior {
+  font-size: 0.95rem;
+  color: #3a5a8c;
+  margin-right: 12px;
+}
+.talent-ability-options {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.talent-ability-radio {
+  font-size: 0.97rem;
+  color: #153e6e;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.talent-ability-radio input[type="radio"] {
+  margin-right: 3px;
+}
+.talent-textarea {
+  width: 100%;
+  min-height: 48px;
+  border-radius: 8px;
+  border: 1px solid #b3d1f7;
+  padding: 8px 10px;
+  font-size: 1rem;
+  color: #153e6e;
+  background: #f7fafd;
+  resize: vertical;
+  margin-bottom: 2px;
+  transition: border-color 0.2s;
+}
+.talent-textarea:focus {
+  border-color: #2a5da8;
+  outline: none;
+}
+.talent-actions {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+@media (max-width: 700px) {
+  .talent-assessment-container {
+    padding: 14px 4px 10px 4px;
+  }
+  .talent-title {
+    font-size: 1.08rem;
+    margin-bottom: 10px;
+  }
+  .talent-section h3 {
+    font-size: 1rem;
+  }
+  .talent-tip {
+    font-size: 0.93rem;
+  }
+}
